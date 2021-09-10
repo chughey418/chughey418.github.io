@@ -1,0 +1,50 @@
+/*Claire Hughey - github.io*/
+
+a {
+    color: white;
+}
+
+li > a:active {
+    color:black;
+}
+
+li > a:hover {
+    background-color: seagreen;
+}
+
+.photo {
+    position: relative;
+    /* ***START REFERENCE: (centering photo example) https://www.w3schools.com/howto/howto_css_image_center.asp */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* ***END REFERENCE: (centering photo example) https://www.w3schools.com/howto/howto_css_image_center.asp */
+    margin-top: 100px;
+    margin-bottom: 50px;
+    max-width: 50%;
+    max-height: 500px;
+    border: 40px;
+    padding: 10px;
+    border-color: goldenrod;
+    border-style: double;
+}
+
+.header{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+    font-family: 'Zilla Slab', serif;
+    color: darkseagreen;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    font-family: 'Zilla Slab', serif;
+}
+
+body {
+    background-color: peachpuff;
+}
